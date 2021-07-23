@@ -2,7 +2,7 @@
 # @api private
 #
 # @param release
-#    GlusterFS release, such as 3.6, 3.7 or 3.8 (specific package defined with 'gluster::version')
+#    GlusterFS release, such as 3,4,5,6 or 7 (specific package defined with 'gluster::version')
 # @param repo_key_source
 #    where to find this repo's GPG key
 # @param priority
