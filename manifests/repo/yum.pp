@@ -33,7 +33,7 @@ class gluster::repo::yum (
     }
   }
 
-  $_release = if versioncmp($release, '4.1') <= 0 {
+  $_release = if (versioncmp($release, '4.1') <= 0) or (versioncmp($release, '10') >= 0) {
     $release
   } else {
     $release[0]
